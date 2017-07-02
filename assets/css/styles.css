@@ -16,8 +16,7 @@ html {
 
 body {
   font-family: "Lato", Arial, sans-serif;
-
-  background: linear-gradient(60deg, #424242, #F62D51);
+  font-size: 14px;
 
   top: 0;
   bottom: 0;
@@ -42,8 +41,21 @@ h4::after {
   color: #ea4747;
 }
 
-.btn-send {
+.switch {
+  text-align: center;
+}
+
+.btn-contribute {
   font-weight: bold;
+  padding: 0 1rem;
+  background-color: #43A047;
+}
+
+.btn-contribute:hover, .btn-contribute:active, .btn-contribute:focus {
+  background-color: #4bb24f;
+}
+
+.btn-send {
   padding: 0 1rem;
   background-color: #43A047;
 }
@@ -92,6 +104,7 @@ h4::after {
   font-size: 36px;
   color: #ea4747;
   text-align: center;
+  text-shadow: -0.5px 0 1px rgba(0, 0, 0, 0.2), 0 0.5px 1px rgba(0, 0, 0, 0.2), 0.5px 0 1px rgba(0, 0, 0, 0.2), 0 -0.5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav-box > .sub-header {
@@ -101,13 +114,14 @@ h4::after {
   box-sizing: border-box;
   border-bottom: 2px solid rgba(255,255,255, 0.15);
   text-align: center;
+  background: #757575;
 }
 
 .nav-box > .content {
   width: 100%;
   height: calc(100% - 232px);
   box-sizing: border-box;
-  background: #757575;
+  /*background: #757575;*/
 
   overflow-y: scroll;
 }
@@ -198,6 +212,42 @@ footer {
   text-align: center;
 }
 
+#legal > section p, ul li {
+  text-align: left;
+}
+
+#legal ul {
+  padding-left: 40px;
+}
+
+#legal ul li {
+  list-style: square;
+  color: #ea4747;
+}
+
+#legal ul li span {
+  color: #fff;
+}
+
+.legal {
+  font-size: 18px;
+
+  color: #fff;
+  background-color: #333;
+
+  border: 2px solid;
+  border-radius: 100%;
+
+  border-color: #117d15;
+  padding: 10px 13px;
+
+  transition: .2s;
+}
+
+.legal:hover {
+  background-color: #117d15;
+}
+
 .social {
   font-size: 18px;
   margin-right: 10px;
@@ -209,10 +259,6 @@ footer {
   border-radius: 100%;
 
   transition: .2s;
-}
-
-.social:last-child {
-  margin-right: 0;
 }
 
 .social.facebook {
@@ -242,7 +288,7 @@ footer {
 
 
 .page {
-  background: linear-gradient(60deg, #424242, #F62D51);
+  background-color: #333;
 
   width: calc(100% - 325px);
 
@@ -302,4 +348,9 @@ th {
 
 .btn-back:hover {
   background-color: #ed5e5e;
+}
+
+
+form i {
+  color: #9e9e9e;
 }

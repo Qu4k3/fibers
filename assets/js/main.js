@@ -14,4 +14,6 @@ jQuery(document).ready(function($) {
 	    }
 	  );
 
+    $('input#name').characterCounter();
+
 });
