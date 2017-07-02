@@ -1,0 +1,22 @@
+{"courses":[
+	{"course": {
+		"title": "Física",
+    "abreviation": "F",
+		"quadri": 1,
+		"links":[
+      {
+        "title": "",
+        "url": "",
+        "fileType": "pdf"
+      },
+      {
+        "title": "",
+        "url": ""
+      },
+      {
+        "title": "",
+        "url": ""
+      }
+		]}
+	}
+]}
