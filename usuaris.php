@@ -8,7 +8,7 @@
 
   <meta name="theme-color" content="#424242"/>
 
-  <title>Fibers | Documents, apunts i exercicis FIB</title>
+  <title>Fibers | Assignatures i estat del contingut</title>
 
   <meta property="og:title" content="Fibers | Documents, apunts i exercicis FIB" />
   <meta property="og:description" content="Tot el que necessites per aprovar, documentació, apunts i exercicis pràctics de cada assignatura." />
@@ -48,21 +48,12 @@
     <div class="header">
       <?php include "views/layouts/_rightTopNavBar.php" ?>
     </div>
+
     <div class="content">
-      <div class="welcome">
-        Benvingut a Fibers !
-        <br><br>
-        Selecciona una assignatura per veure el seu contingut
-        <br><br>
-        Seguix-nos al nostre <a href="https://www.facebook.com/fibers.cat/" target="_blank">Facebook</a> per saber quan es publica nou contingut
-        <br><br>
-        <i style="font-size: 32px;" class="fa fa-smile-o" aria-hidden="true"></i>
-      </div>
+      <?php include "views/usuaris-collaboradors.php" ?>
     </div>
+
   </section>
-
-
-
 
   <section id="send-info" class="modal modal-fixed-footer">
       <section class="modal-content">
@@ -147,7 +138,7 @@
           </ul>
       </section>
       <section class="modal-footer">
-        <span class="modal-action modal-close waves-effect waves-light btn btn-back" style="cursor: pointer; font-weight: bold;">Entesos</span>
+        <span class="modal-action modal-close waves-effect waves-red btn btn-back" style="cursor: pointer; font-weight: bold;">Entesos</span>
       </section>
   </section>
 
