@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /private/
 Disallow: /1/
 Disallow: /2/
+Disallow: /3/

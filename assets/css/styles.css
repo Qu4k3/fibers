@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.special-c {
+  color: #ea4747;
+}
+
 h6 {
   color: #ea4747;
   font-weight: bold;
@@ -192,7 +196,7 @@ footer {
   width: 100%;
 }
 
-.nav-box .footer {
+.nav-box > footer > .link-icons {
   z-index: 100;
   width: 100%;
   padding: 18px 16px;
@@ -204,11 +208,19 @@ footer {
   text-align: center;
 }
 
-.nav-box .sub-footer {
+.nav-box > footer > .link-icons a {
+  margin-right: 10px;
+}
+
+.nav-box > footer > .link-icons a:last-child {
+  margin-right: 0;
+}
+
+.nav-box > footer > .sub-footer {
   z-index: 100;
   width: 100%;
-  padding: 8px 16px;
-  height: 40px;
+  padding: 10px 16px;
+  height: 45px;
   box-sizing: border-box;
   border-top: 2px solid rgba(255,255,255, 0.15);
   background: #151515;
@@ -252,9 +264,48 @@ footer {
   background-color: #117d15;
 }
 
+.report {
+  font-size: 18px;
+
+  color: #fff;
+  background-color: #333;
+
+  border: 2px solid;
+  border-radius: 100%;
+
+  border-color: #fff;
+  padding: 10px 12px;
+
+  transition: .2s;
+}
+
+.report:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.qui-som {
+  margin-left: 15px;
+
+  color: #fff;
+  background-color: #333;
+
+  border: 2px solid;
+  border-radius: 100%;
+
+  border-color: #ea4747;
+  padding: 3px 9px;
+
+  transition: .2s;
+}
+
+
+.qui-som:hover {
+  background-color: #ea4747;
+}
+
 .social {
   font-size: 18px;
-  margin-right: 10px;
 
   color: #fff;
   background-color: #333;
@@ -287,9 +338,19 @@ footer {
 
 
 
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
 
-
-
+.avatar {
+  width: 75px;
+  height: auto;
+  margin: auto;
+  /*border: 2px solid #ea4747;*/
+  border-radius: 100%;
+}
 
 .page {
   background-color: #333;
@@ -327,6 +388,24 @@ footer {
   right: 0;
   bottom: 0;
   max-height: 330px;
+  max-width: 450px;
+  border: 1px solid #9e9e9e;
+  border-radius: 3px;
+  padding: 50px 15px 50px 15px;
+
+  font-size: 18px;
+  margin: auto;
+  text-align: center;
+}
+
+.page > .content > .about-us {
+  color: #9e9e9e;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 450px;
   max-width: 450px;
   border: 1px solid #9e9e9e;
   border-radius: 3px;
