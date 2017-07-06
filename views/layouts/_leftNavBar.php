@@ -13,11 +13,11 @@
       <tbody>
         <tr class="clickable-row" data-href="url://">
             <td>Física</td>
-            <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
+            <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
           <td>Fundaments Matematics</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
           <td>Introducció als Computadors</td>
