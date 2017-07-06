@@ -3,3 +3,4 @@ Disallow: /private/
 Disallow: /1/
 Disallow: /2/
 Disallow: /3/
+Disallow: /4/

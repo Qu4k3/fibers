@@ -50,12 +50,16 @@
     </div>
 
     <div class="content">
-      <div class="grid-container">
-        <?php include "views/usuaris-collaboradors.php" ?>
+      <div class="error-404">
+        Error 404 &nbsp; :(
+        <br>
+        <span class="special-c">- - - - -</span>
+        <br>
+        No s'ha trobat la pàgina sol·licitada
       </div>
     </div>
 
-  </section>    
+  </section>  
 
 </body>
 </html>

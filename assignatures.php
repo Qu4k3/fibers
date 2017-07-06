@@ -50,14 +50,16 @@
     </div>
 
     <div class="content">
-      <?php include "views/llistat-assignatures.php" ?>
+      <div class="grid-container">
+        <?php include "views/llistat-assignatures.php" ?>
+      </div>
     </div>
 
   </section>
 
   <section id="usuaris" class="modal modal-fixed-footer">
       <section class="modal-content">
-          <h4><span class="modal_title">Han aportat</span></h4>
+          <h5><span class="modal_title">Han aportat</span></h5>
           <br>
           <table class="centered">
               <thead>
@@ -108,93 +110,6 @@
       </section>
       <section class="modal-footer">
         <span class="modal-action modal-close waves-effect waves-red btn btn-back" style="cursor: pointer; font-weight: bold;"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Enrere</span>
-      </section>
-  </section>
-
-  <section id="send-info" class="modal modal-fixed-footer">
-      <section class="modal-content">
-          <h5><span class="modal_title">Participa i aporta contingut !</span></h5>
-          <br>
-          <h6>Pots enviar-nos documentació que creguis necessària per afegir a la pàgina</h6>
-          <br>
-          <div class="row">
-            <form action="#" method="post" class="col s12">
-              <div class="row">
-                <div class="file-field input-field col s12">
-                  <div class="btn">
-                    <span>Arxius</span>
-                    <input type="file" multiple>
-                  </div>
-                  <div class="file-path-wrapper">
-                    <input class="file-path validate" type="text" placeholder="Adjunta un o més arxius" required>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <i class="material-icons prefix">mode_edit</i>
-                  <textarea id="message" class="materialize-textarea" required></textarea>
-                  <label for="message">Descriu el contingut</label>
-                </div>
-              </div>
-              <br>
-              <div class="row">
-                <div class="switch">
-                  Vols aparèixer com usuari col.laborador a la pàgina ? &nbsp; &nbsp;
-                  <label>
-                    No
-                    <input type="checkbox" checked="checked">
-                    <span class="lever"></span>
-                    Si
-                  </label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12 l6">
-                <i class="fa fa-user-o prefix" aria-hidden="true"></i>
-                  <input id="name" type="text" class="validate" data-length="25">
-                  <label for="name">Nom o pseudònim</label>
-                </div>
-                <div class="input-field col s12 l6">
-                  <i class="fa fa-envelope-o prefix" aria-hidden="true"></i>
-                  <input id="email" type="email" class="validate">
-                  <label for="email" data-error="wrong" data-success="right">Correu electrònic</label>
-                </div>
-              </div>
-              <br>
-              <div class="row">
-                <p>
-                  <input type="checkbox" class="filled-in" id="filled-in-box" required/>
-                  <label for="filled-in-box">He llegit  i accepto <a href="#legal">les condicions</a></label>
-                </p>
-              </div>
-            </form>
-          </div>
-      </section>
-      <section class="modal-footer">
-        <button class="btn btn-send waves-effect waves-light" type="submit" name="action">Enviar
-          <i class="material-icons right">send</i>
-        </button>
-      </section>
-  </section>
-
-  <section id="legal" class="modal modal-fixed-footer">
-      <section class="modal-content">
-          <h4><span class="modal_title">Condicions d'ús</span></h4>
-          <br>
-          <p>Fibers.cat es una plataforma que facilita als usuaris
-            aportar contingut i fer-ho accesible per a tothom.</p>
-
-          <p>A l'hora d'adjuntar fitxers, tingueu en compte:</p>
-
-          <ul>
-            <li><span>No s'accepta material facilitat pel professor</li>
-            <li><span>No s'accepta material amb copyright (llibres, etc.)</span></li>
-            <li><span>No s'accepta material sense el consentiment del propietari</span></li>
-          </ul>
-      </section>
-      <section class="modal-footer">
-        <span class="modal-action modal-close waves-effect waves-red btn btn-back" style="cursor: pointer; font-weight: bold;">Entesos</span>
       </section>
   </section>
 

@@ -1,6 +1,6 @@
-<h4 class="page-title">
+<h5 class="page-title">
   <span>Assignatures</span>
-</h4>
+</h5>
 <br>
 <h6 class="page-sub-title">Obligatories</h6>
 <table class="centered">

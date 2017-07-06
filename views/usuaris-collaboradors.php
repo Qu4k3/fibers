@@ -1,6 +1,6 @@
-<h4  class="page-title">
+<h5 class="page-title">
   <span>Han aportat</span>
-</h4>
+</h5>
 <br>
 <table class="centered">
     <thead>
