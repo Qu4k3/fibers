@@ -47,7 +47,8 @@ h4::after {
 
 .btn-contribute {
   font-weight: bold;
-  padding: 0 1rem;
+  font-size: 16px;
+  padding: 0 1.5rem;
   background-color: #43A047;
 }
 
@@ -107,10 +108,13 @@ h4::after {
   text-shadow: -0.5px 0 1px rgba(0, 0, 0, 0.2), 0 0.5px 1px rgba(0, 0, 0, 0.2), 0.5px 0 1px rgba(0, 0, 0, 0.2), 0 -0.5px 1px rgba(0, 0, 0, 0.2);
 }
 
+.nav-box > .header > a {
+  color: #ea4747;
+}
+
 .nav-box > .sub-header {
   z-index: 100;
   padding: 13px 16px;
-  height: 64px;
   box-sizing: border-box;
   border-bottom: 2px solid rgba(255,255,255, 0.15);
   text-align: center;
@@ -157,26 +161,26 @@ h4::after {
     color: #f9a825 ;
 }
 
-.modal-content::-webkit-scrollbar, .nav-box > .content::-webkit-scrollbar {
+.modal-content::-webkit-scrollbar, .nav-box > .content::-webkit-scrollbar, .page > .content::-webkit-scrollbar {
     width: 6px;
     background-color: #333;
 }
 
-.modal-content::-webkit-scrollbar-track, .nav-box > .content::-webkit-scrollbar-track {
+.modal-content::-webkit-scrollbar-track, .nav-box > .content::-webkit-scrollbar-track, .page > .content::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
     border-radius: 0px;
     background-color: #555;
 }
 
-.modal-content::-webkit-scrollbar-track-piece, .nav-box > .content::-webkit-scrollbar-track-piece {
+.modal-content::-webkit-scrollbar-track-piece, .nav-box > .content::-webkit-scrollbar-track-piece, .page > .content::-webkit-scrollbar-track-piece {
     background-color: #555;
 }
 
-.modal-content::-webkit-scrollbar-corner, .nav-box > .content::-webkit-scrollbar-corner {
+.modal-content::-webkit-scrollbar-corner, .nav-box > .content::-webkit-scrollbar-corner, .page > .content::-webkit-scrollbar-corner {
     background-color: #111;
 }
 
-.modal-content::-webkit-scrollbar-thumb, .nav-box > .content::-webkit-scrollbar-thumb {
+.modal-content::-webkit-scrollbar-thumb, .nav-box > .content::-webkit-scrollbar-thumb, .page > .content::-webkit-scrollbar-thumb {
     border-radius: 0px;
     -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.3);
     background-color: #111;
@@ -301,6 +305,27 @@ footer {
   height: 64px;
   padding: 13px 15px;
   text-align: right;
+  position: relative;
+  background-color: #424242;
+  border-bottom: 2px solid rgba(255,255,255,0.15);
+  box-shadow: ;
+}
+
+.page > .content {
+  padding-top: 15px;
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+
+  height: calc(100% - 64px);
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-sub-title {
+  text-align: center;
 }
 
 .btn-assignatures {
@@ -316,7 +341,7 @@ th {
 }
 
 .table-assignatures tr td {
-  transition: .2s;
+  transition: .3s;
   border-radius: 0;
 }
 
@@ -330,16 +355,16 @@ th {
 
 .modal-content {
   color: #fff;
-  background: #424242;
+  background: #333;
   text-align: center;
 }
 
 .modal {
-  background-color: #424242;
+  background-color: #333;
 }
 
 .modal .modal-footer {
-  background-color: #424242;
+  background-color: #333;
 }
 
 .btn-back {
