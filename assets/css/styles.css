@@ -74,6 +74,11 @@ h5::after {
   background-color: #4bb24f;
 }
 
+.badge-type {
+  min-width: 22px !important;
+  padding: 0 3px !important;
+}
+
 .btn-arxius {
   background-color: #ea4747;
 }

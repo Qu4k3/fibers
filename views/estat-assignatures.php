@@ -31,26 +31,30 @@
         <tr class='clickable-row' data-href='url://'>
             <td>F</td>
             <td>Física</td>
-            <td>Q1</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>FM</td>
             <td>Fundaments Matematics</td>
-            <td>Q1</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>IC</td>
             <td>Introducció als Computadors</td>
-            <td>Q1</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>PRO1</td>
             <td>Programació 1</td>
-            <td>Q1</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr>
             <td class="space"></td>
@@ -58,26 +62,30 @@
         <tr class='clickable-row' data-href='url://'>
             <td>EC</td>
             <td>Estructura de Computadors</td>
-            <td>Q2</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>M1</td>
             <td>Matemàtiques 1</td>
-            <td>Q2</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>M2</td>
             <td>Matemàtiques 2</td>
-            <td>Q2</td>
+
             <td><i class="fa fa-circle" aria-hidden="true"></i></td>
+            <td><span class="new badge badge-type green" data-badge-caption="T"></span> <span class="new badge badge-type orange" data-badge-caption="E"></span><span class="new badge badge-type blue" data-badge-caption="R"></span></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>PRO2</td>
             <td>Programació 2</td>
-            <td>Q2</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr>
             <td class="space"></td>
@@ -85,32 +93,37 @@
         <tr class='clickable-row' data-href='url://'>
             <td>BD</td>
             <td>Base de dades</td>
-            <td>Q3</td>
+
             <td><i class="fa fa-circle" aria-hidden="true"></i></td>
+            <td><span class="new badge badge-type green" data-badge-caption="T"></span> <span class="new badge badge-type orange" data-badge-caption="E"></span></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>CI</td>
             <td>Interfaces de Computadors</td>
-            <td>Q3</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>EDA</td>
             <td>Estructura de Dades i Algorismes</td>
-            <td>Q3</td>
+
             <td><i class="fa fa-circle" aria-hidden="true"></i></td>
+            <td><span class="new badge badge-type green" data-badge-caption="T"></span> <span class="new badge badge-type orange" data-badge-caption="E"></span> <span class="new badge badge-type purple" data-badge-caption="P"></span></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>PE</td>
             <td>Probabilitat i Estadistica</td>
-            <td>Q3</td>
+
             <td><i class="fa fa-circle" aria-hidden="true"></i></td>
+            <td><span class="new badge badge-type green" data-badge-caption="T"></span> <span class="new badge badge-type orange" data-badge-caption="E"></span></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>SO</td>
             <td>Sistemes Operatius</td>
-            <td>Q3</td>
+
             <td><i class="fa fa-circle" aria-hidden="true"></i></td>
+            <td><span class="new badge badge-type green" data-badge-caption="T"></span> <span class="new badge badge-type orange" data-badge-caption="E"></span><span class="new badge badge-type blue" data-badge-caption="R"></span></td>
         </tr>
         <tr>
             <td class="space"></td>
@@ -118,32 +131,37 @@
         <tr class='clickable-row' data-href='url://'>
             <td>AC</td>
             <td>Arquitectura de Computadors</td>
-            <td>Q4</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>EEE</td>
             <td>Empresa i Entorn Economic</td>
-            <td>Q4</td>
+
             <td><i class="fa fa-circle" aria-hidden="true"></i></td>
+            <td><span class="new badge badge-type green" data-badge-caption="T"></span> <span class="new badge badge-type orange" data-badge-caption="E"></span><span class="new badge badge-type blue" data-badge-caption="R"></span></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>IES</td>
             <td>Introducció a la Ingenieria del Software</td>
-            <td>Q4</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>PROP</td>
             <td>Projectes de Programació</td>
-            <td>Q4</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>XC</td>
             <td>Xarxes de Computadors</td>
-            <td>Q4</td>
+
             <td><i class="fa fa-circle" aria-hidden="true"></i></td>
+            <td><span class="new badge badge-type green" data-badge-caption="T"></span> <span class="new badge badge-type orange" data-badge-caption="E"></span><span class="new badge badge-type blue" data-badge-caption="R"></span></td>
         </tr>
         <tr>
             <td class="space"></td>
@@ -151,14 +169,16 @@
         <tr class='clickable-row' data-href='url://'>
             <td>IDI</td>
             <td>Interacció i Diseny d'Interficies</td>
-            <td>Q4</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
         <tr class='clickable-row' data-href='url://'>
             <td>PAR</td>
             <td>Paralelisme</td>
-            <td>Q4</td>
+
             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
