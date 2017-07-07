@@ -42,6 +42,8 @@
 </head>
 <body>
 
+  <?php include "private/db-conn.php" ?>
+
   <?php include "views/layouts/_leftNavBar.php" ?>
 
   <section class="page">

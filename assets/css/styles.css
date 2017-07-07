@@ -74,9 +74,26 @@ h5::after {
   background-color: #4bb24f;
 }
 
+.btn-arxius {
+  background-color: #ea4747;
+}
+
+.btn-arxius i {
+  color: #fff;
+}
+
+.btn-arxius:hover {
+  background-color: #ed5e5e;
+}
+
 .btn-send {
+  float: right;
   padding: 0 1rem;
   background-color: #43A047;
+}
+
+.btn-send i {
+  color: #fff;
 }
 
 .btn-send:hover, .btn-send:active, .btn-send:focus {
@@ -176,9 +193,11 @@ h5::after {
   cursor: pointer;
 }
 
+/*
 .clickable-row:hover i {
   color: #ea4747;
 }
+*/
 
 .fa-circle-o {
     color: #ff6e40;
@@ -482,7 +501,7 @@ td {
 
 .page-title {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .page-sub-title {

@@ -8,11 +8,26 @@
         <tr>
             <th data-field="abrv">Abreviació</th>
             <th data-field="nom">Nom complet</th>
-            <th data-field="quadri">Quadrimestre</th>
             <th data-field="doc">Documentació</th>
+            <th data-field="quadri">Tipus</th>
         </tr>
     </thead>
+
     <tbody class="table-assignatures">
+      <?php
+        /*
+        $result = $conn->query("SELECT * FROM assignatures ORDER BY nom DESC");
+          if($result->num_rows > 0){
+            while ($fila = $result->fetch_assoc()) {
+              echo "<tr class='clickable-row' data-href='url://'>
+              <td>".$fila['abreviacio']."</td><td>".$fila['nom']."</td>
+              <td>".$fila['docs']."</td><td></td>
+              </tr>";
+            }
+          }
+        $conn->close();
+        */
+      ?>
         <tr class='clickable-row' data-href='url://'>
             <td>F</td>
             <td>Física</td>
