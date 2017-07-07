@@ -51,15 +51,16 @@
 
     <div class="content">
       <div class="error-404">
-        Error 404 &nbsp; :(
+        <br>
+        Error 404
         <br>
         <span class="special-c">- - - - -</span>
         <br>
-        No s'ha trobat la pàgina sol·licitada
+        Upss ! &nbsp; <i class="fa fa-frown-o" aria-hidden="true"></i> <br> No s'ha trobat la pàgina sol·licitada
       </div>
     </div>
 
-  </section>  
+  </section>
 
 </body>
 </html>

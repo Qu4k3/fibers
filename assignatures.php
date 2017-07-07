@@ -51,66 +51,10 @@
 
     <div class="content">
       <div class="grid-container">
-        <?php include "views/llistat-assignatures.php" ?>
+        <?php include "views/estat-assignatures.php" ?>
       </div>
     </div>
 
-  </section>
-
-  <section id="usuaris" class="modal modal-fixed-footer">
-      <section class="modal-content">
-          <h5><span class="modal_title">Han aportat</span></h5>
-          <br>
-          <table class="centered">
-              <thead>
-                  <tr>
-                      <th data-field="nom">Nom</th>
-                      <th data-field="data">Data</th>
-                      <th data-field="aportacions">Aportacions</th>
-                  </tr>
-              </thead>
-              <tbody class="table-assignatures">
-                <tr>
-                    <td>Welcius</td>
-                    <td>2017-05-17</td>
-                    <td>AC</td>
-                </tr>
-                <tr>
-                    <td>Alcore</td>
-                    <td>2017-04-18</td>
-                    <td>EDA</td>
-                </tr>
-                <tr>
-                    <td>Welcius</td>
-                    <td>2017-01-08</td>
-                    <td>AC</td>
-                </tr>
-                <tr>
-                    <td style="color: #9e9e9e;">Anon.</td>
-                    <td>2016-12-30</td>
-                    <td>A, B, C, D</td>
-                </tr>
-                <tr>
-                    <td>Chechi</td>
-                    <td>2016-12-29</td>
-                    <td>BD</td>
-                </tr>
-                <tr>
-                    <td>Pau Risa</td>
-                    <td>2016-10-18</td>
-                    <td>EEE</td>
-                </tr>
-                <tr>
-                    <td>Jeison Melo</td>
-                    <td>2016-09-21</td>
-                    <td>A, B, C, D</td>
-                </tr>
-              </tbody>
-          </table>
-      </section>
-      <section class="modal-footer">
-        <span class="modal-action modal-close waves-effect waves-red btn btn-back" style="cursor: pointer; font-weight: bold;"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Enrere</span>
-      </section>
   </section>
 
 </body>

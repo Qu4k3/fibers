@@ -103,11 +103,11 @@ h5::after {
 
 .btn-usuaris {
   padding: 0 1rem;
-  background-color: #3f51b5;
+  background-color: #7b1fa2;
 }
 
-.btn-usuaris:hover, .btn-usuaris:active, .btn-usuaris:focus, .btn-usuaris:visited {
-  background-color: #5c6bc0;
+.btn-usuaris:hover, .btn-usuaris:active, .btn-usuaris:focus {
+  background-color: #8e24aa;
 }
 
 .nav-box {
@@ -474,6 +474,10 @@ td {
   font-size: 20px;
   margin: auto;
   text-align: center;
+}
+
+.page > .content > .error-404 > i {
+  font-size: 26px;
 }
 
 .page-title {
