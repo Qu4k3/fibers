@@ -67,6 +67,9 @@
         </tr>
       </tbody>
     </table>
+    <div class="nav-extra">
+      No troves el que busques ? Consulta la <a href="assignatures.php">taula d'assignatures</a>
+    </div>
   </div>
 
   <footer>

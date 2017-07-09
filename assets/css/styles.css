@@ -74,6 +74,7 @@ body {
 h6 {
   color: #ea4747;
   font-weight: bold;
+  font-size: 16px;
 }
 
 h4::before {
@@ -162,11 +163,17 @@ h5::after {
 
 .btn-usuaris {
   padding: 0 1rem;
-  background-color: #7b1fa2;
+  background-color: #ab47bc ;
 }
 
 .btn-usuaris:hover, .btn-usuaris:active, .btn-usuaris:focus {
-  background-color: #8e24aa;
+  background-color: #ba68c8 ;
+}
+
+.nav-extra {
+  padding: 15px 15px;
+  color: #9e9e9e;
+  text-align: center;
 }
 
 .nav-box {
