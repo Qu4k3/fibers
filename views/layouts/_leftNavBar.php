@@ -9,87 +9,61 @@
   </div>
 
   <div class="content">
-    <table class="assignatures">
+    <table class="assignatures assignatures-nav">
       <tbody>
         <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+            <td>F</td>
             <td>Física</td>
             <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>FM</td>
           <td>Fundaments Matematics</td>
           <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
-          <td>Introducció als Computadors</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
-          <td>Programació 1</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
-          <td>Estructura de Computadors</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
-          <td>Matemàtiques 1</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>M2</td>
           <td>Matemàtiques 2</td>
-          <td><i class="fa fa-circle feble tooltipped" data-position="right" data-delay="50" data-tooltip="Poc contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
-          <td>Programació 2</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>BD</td>
           <td>Base de dades</td>
-          <td><i class="fa fa-circle tooltipped" data-position="right" data-delay="50" data-tooltip="Hi ha contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
-          <td>Interfaces de Computadors</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>EDA</td>
           <td>Estructura de Dades i Algorismes</td>
-          <td><i class="fa fa-circle tooltipped" data-position="right" data-delay="50" data-tooltip="Hi ha contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>PE</td>
           <td>Probabilitat i Estadistica</td>
-          <td><i class="fa fa-circle tooltipped" data-position="right" data-delay="50" data-tooltip="Hi ha contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>SO</td>
           <td>Sistemes Operatius</td>
-          <td><i class="fa fa-circle tooltipped" data-position="right" data-delay="50" data-tooltip="Hi ha contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
-          <td>Arquitectura de Computadors</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>EIE</td>
           <td>Empresa i Entorn Economic</td>
-          <td><i class="fa fa-circle tooltipped" data-position="right" data-delay="50" data-tooltip="Hi ha contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
         <tr class="clickable-row" data-href="url://">
-          <td>Introducció a la Ingenieria del Software</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
-          <td>Projectes de Programació</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
+          <td class="border-td"></td>
+          <td>XC</td>
           <td>Xarxes de Computadors</td>
-          <td><i class="fa fa-circle feble tooltipped" data-position="right" data-delay="50" data-tooltip="Poc contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
-          <td>Interacció i Diseny d"Interficies</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
-        </tr>
-        <tr class="clickable-row" data-href="url://">
-          <td>Paralelisme</td>
-          <td><i class="fa fa-circle-o tooltipped" data-position="right" data-delay="50" data-tooltip="No hi ha contingut" aria-hidden="true"></i></td>
+          <td><i class="fa fa-chevron-right" aria-hidden="true"></i></td>
         </tr>
       </tbody>
     </table>

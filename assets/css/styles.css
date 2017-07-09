@@ -26,6 +26,43 @@ body {
   width: 100%;
 }
 
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/materialIcons/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/materialIcons/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../fonts/materialIcons/MaterialIcons-Regular.woff) format('woff'),
+    url(../fonts/materialIcons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
 .default-c {
   color: #fff;
 }
@@ -198,11 +235,27 @@ h5::after {
   cursor: pointer;
 }
 
-/*
-.clickable-row:hover i {
+.assignatures-nav tr {
+  transition: .3s;
+}
+
+.border-td {
+  padding: 0px 2.5px !important;
+  transition: .3s;
+}
+
+.assignatures-nav tr:hover .border-td {
+  background: #ea4747;
+}
+
+.assignatures-nav tr:hover {
+  background: #424242;
+}
+
+.assignatures-nav tr:hover i {
   color: #ea4747;
 }
-*/
+
 
 .fa-circle-o {
     color: #ff6e40;
@@ -212,9 +265,11 @@ h5::after {
     color: #00e676;
 }
 
+/*
 .fa-circle.feble {
     color: #f9a825 ;
 }
+*/
 
 .modal-content::-webkit-scrollbar, .nav-box > .content::-webkit-scrollbar, .page > .content::-webkit-scrollbar {
     width: 6px;
@@ -335,6 +390,10 @@ footer {
   color: #333;
 }
 
+.tipus-null {
+  color: #ff6e40;
+}
+
 .qui-som {
   margin-left: 15px;
 
@@ -391,14 +450,18 @@ thead {
 }
 
 td {
-  padding: 10px 5px;
+  padding: 12px 5px;
 }
 
 .grid-container {
   overflow: hidden;
-  max-width: 1280px;
+  max-width: 960px;
   margin: 0 auto;
   width: 100%;
+}
+
+table.space-b {
+  margin-bottom: 50px;
 }
 
 .content-container {
@@ -537,7 +600,7 @@ th {
 }
 
 .table-assignatures tr td {
-  transition: .3s;
+  transition: .2s;
   border-radius: 0;
 }
 

@@ -17,8 +17,6 @@
 
   <link rel="shortcut icon" href="assets/img/logo.png"/>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   <link href="assets/css/m.min.css" type="text/css" rel="stylesheet"/>
   <!-- Sass version -->
   <!-- <link href="assets/css/materialize.css" type="text/css" rel="stylesheet"/> -->
