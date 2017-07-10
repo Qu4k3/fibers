@@ -48,6 +48,9 @@
     <div class="header">
       <?php include "views/layouts/_rightTopNavBar.php" ?>
     </div>
+    <div class="header-mobile">
+        <a href="/">Fibers.cat</a> <span id="navbar-toggle"><i class="fa fa-bars" aria-hidden="true"></i></span>
+    </div>
 
     <div class="content">
       <div class="content-container">
@@ -194,6 +197,9 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="footer-mobile">
+        <?php include "views/layouts/_footer.php" ?>
     </div>
 
   </section>

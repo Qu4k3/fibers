@@ -8,7 +8,7 @@
 
   <meta name="theme-color" content="#424242"/>
 
-  <title>Fibers | Assignatures i estat del contingut</title>
+  <title>Fibers | Upss! No s'ha trobat la pàgina sol·licitada </title>
 
   <meta property="og:title" content="Fibers | Documents, apunts i exercicis FIB" />
   <meta property="og:description" content="Tot el que necessites per aprovar, documentació, apunts i exercicis pràctics de cada assignatura." />
@@ -47,6 +47,9 @@
   <section class="page">
     <div class="header">
       <?php include "views/layouts/_rightTopNavBar.php" ?>
+    </div>
+    <div class="header-mobile">
+        <a href="/">Fibers.cat</a> <span id="navbar-toggle"><i class="fa fa-bars" aria-hidden="true"></i></span>
     </div>
 
     <div class="content">

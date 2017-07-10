@@ -48,12 +48,22 @@
     <div class="header">
       <?php include "views/layouts/_rightTopNavBar.php" ?>
     </div>
+    <div class="header-mobile">
+        <a href="/">Fibers.cat</a> <span id="navbar-toggle"><i class="fa fa-bars" aria-hidden="true"></i></span>
+    </div>
 
     <div class="content">
       <div class="about-us">
-        Creat per
+        Fibers.cat es una plataforma que facilita als usuaris aportar contingut i fer-ho accesible per a tothom.
+        <br>
         <br>
         <span class="special-c">- - - - -</span>
+        <br>
+        <br>
+        Creat per
+        <br>
+        <span class="special-c">-</span>
+        <br>
 
         <div class="row" style="margin-top:25px;">
           <div class="col s12 m6">
@@ -72,7 +82,11 @@
       </div>
     </div>
 
-  </section>  
+    <div class="footer-mobile">
+        <?php include "views/layouts/_footer.php" ?>
+    </div>
+
+  </section>
 
 </body>
 </html>

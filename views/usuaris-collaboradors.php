@@ -2,7 +2,7 @@
   <span>Han aportat</span>
 </h5>
 <br>
-<table class="centered">
+<table class="centered space-b">
     <thead>
         <tr>
             <th data-field="nom">Nom</th>

@@ -16,4 +16,16 @@ jQuery(document).ready(function($) {
 
     $('input#name').characterCounter();
 
+    $("#navbar-toggle").click( function (){
+      if( $('.nav-box').css('left') === '-325px' )  {
+          $(".nav-box").css("left", '0px');
+          $(".nav-box").css("width", '88%');
+      }
+      else {
+        $(".nav-box").css("left", '-325px');
+        $(".nav-box").css("width", '325px');
+      }
+
+    });
+
 });

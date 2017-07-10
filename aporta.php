@@ -48,6 +48,9 @@
     <div class="header">
       <?php include "views/layouts/_rightTopNavBar.php" ?>
     </div>
+    <div class="header-mobile">
+        <a href="/">Fibers.cat</a> <span><i id="navbar-toggle" class="fa fa-bars" aria-hidden="true"></i></span>
+    </div>
 
     <div class="content">
               <h5  class="page-title"><span class="modal_title">Participa i aporta contingut !</span></h5>
@@ -59,7 +62,7 @@
                   <div class="row">
                     <div class="file-field input-field col s12 m6">
                       <div class="btn btn-arxius">
-                        <i class="fa fa-paperclip" aria-hidden="true"></i> &nbsp; 
+                        <i class="fa fa-paperclip" aria-hidden="true"></i> &nbsp;
                         <span>Arxius</span>
                         <input type="file" multiple>
                       </div>
@@ -118,6 +121,10 @@
                 </form>
               </div>
 
+    </div>
+
+    <div class="footer-mobile">
+        <?php include "views/layouts/_footer.php" ?>
     </div>
 
   </section>
