@@ -64,5 +64,7 @@
 
   </section>
 
+  <?php include "views/condicions-us.php" ?>
+
 </body>
 </html>

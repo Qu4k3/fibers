@@ -200,9 +200,11 @@
     </div>
     <div class="footer-mobile">
         <?php include "views/layouts/_footer.php" ?>
-    </div>
+    </div>    
 
   </section>
+
+  <?php include "views/condicions-us.php" ?>
 
 </body>
 </html>

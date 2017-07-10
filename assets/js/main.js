@@ -29,3 +29,11 @@ jQuery(document).ready(function($) {
     });
 
 });
+
+jQuery(window).resize(function () {
+  var width = $(window).width();
+
+  if (width < 600) {
+    $('.legal').removeClass('tooltipped');
+  }
+});
