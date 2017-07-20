@@ -70,13 +70,13 @@
             <img class="img-responsive avatar" src="assets/img/z.jpg" alt="">
             Qu4k3
             <br>
-            <span class="special-c"><&#47; </span>Desenvolupador <span class="special-c">/></span>
+            <span class="special-c"><&#47;</span> x <span class="special-c">/></span>
           </div>
           <div class="col s12 m6">
             <img class="img-responsive avatar" src="assets/img/w.jpg" alt="">
             Welcius
             <br>
-            <span class="special-c">**</span> Administrador <span class="special-c">**</span>
+            <span class="special-c">**</span> y <span class="special-c">**</span>
           </div>
         </div>
       </div>

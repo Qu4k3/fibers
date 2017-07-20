@@ -53,9 +53,7 @@
     </div>
     <div class="content">
       <div class="welcome">
-        Benvingut a Fibers !
-        <br><br>
-        Selecciona una assignatura per veure el seu contingut
+        Benvingut a Fibers !        
         <br><br>
         Seguix-nos al nostre <a href="https://www.facebook.com/fibers.cat/" target="_blank">Facebook</a> per saber quan es publica nou contingut
         <br><br>
