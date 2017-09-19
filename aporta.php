@@ -12,7 +12,7 @@
 
   <meta property="og:title" content="Fibers | Documents, apunts i exercicis FIB" />
   <meta property="og:description" content="Tot el que necessites per aprovar, documentació, apunts i exercicis pràctics de cada assignatura." />
-  <meta property="og:image" content="assets/img/logo_3.png" />
+  <meta property="og:image" content="assets/img/logo.png" />
   <meta property="og:type" content="website" />
 
   <link rel="shortcut icon" href="assets/img/logo.png"/>

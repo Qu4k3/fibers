@@ -168,7 +168,14 @@ h5::after {
 
 .btn-llistat {
   padding: 0 1rem;
-  background-color: #009688;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #26a69a;
+  border-radius: 25px;
+}
+
+.btn-llistat span {
+  vertical-align: 6px;
 }
 
 .btn-llistat:hover, .btn-llistat:active, .btn-llistat:focus {
@@ -177,7 +184,14 @@ h5::after {
 
 .btn-assignatures {
   padding: 0 1rem;
-  background-color: #2196f3;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #42a5f5;
+  border-radius: 25px;
+}
+
+.btn-assignatures span {
+  vertical-align: 6px;
 }
 
 .btn-assignatures:hover, .btn-assignatures:active, .btn-assignatures:focus {
@@ -186,11 +200,19 @@ h5::after {
 
 .btn-usuaris {
   padding: 0 1rem;
-  background-color: #ab47bc ;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #ba68c8;
+  border-radius: 25px;
 }
 
+.btn-usuaris span {
+  vertical-align: 6px;
+}
+
+
 .btn-usuaris:hover, .btn-usuaris:active, .btn-usuaris:focus {
-  background-color: #ba68c8 ;
+  background-color: #ba68c8;
 }
 
 .nav-extra {
