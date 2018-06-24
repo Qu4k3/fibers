@@ -79,6 +79,21 @@
             <span class="special-c">**</span> y <span class="special-c">**</span>
           </div>
         </div>
+
+
+        Col·laboradors
+        <br>
+        <span class="special-c">-</span>
+        <br>
+
+        <div class="row" style="margin-top:25px;">
+          <div class="col s12 m6 push-m3">
+            <img class="img-responsive avatar" src="assets/img/" alt="">
+            Alcore
+            <br>
+            <span class="special-c">--</span> z <span class="special-c">--</span>
+          </div>         
+        </div>
       </div>
     </div>
 

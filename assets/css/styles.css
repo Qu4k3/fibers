@@ -171,7 +171,7 @@ h5::after {
   background-color: transparent;
   border: 2px solid;
   border-color: #26a69a;
-  border-radius: 25px;
+  color: #fff;
 }
 
 .btn-llistat span {
@@ -187,7 +187,7 @@ h5::after {
   background-color: transparent;
   border: 2px solid;
   border-color: #42a5f5;
-  border-radius: 25px;
+  color: #fff;
 }
 
 .btn-assignatures span {
@@ -203,7 +203,7 @@ h5::after {
   background-color: transparent;
   border: 2px solid;
   border-color: #ba68c8;
-  border-radius: 25px;
+  color: #fff;
 }
 
 .btn-usuaris span {
@@ -377,10 +377,9 @@ footer {
 .nav-box footer .sub-footer, .footer-mobile footer .sub-footer {
   z-index: 100;
   width: 100%;
-  padding: 10px 16px;
-  height: 45px;
+  padding: 7px 16px;
   box-sizing: border-box;
-  border-top: 2px solid rgba(255,255,255, 0.15);
+  border-top: 2px solid rgba(255,255,255, 0.35);
   background: #151515;
   color: #ea4747;
   text-align: center;
@@ -456,9 +455,11 @@ footer {
   border-radius: 100%;
 
   border-color: #ffab40;
-  padding: 3px 9px;
+  padding: 3px 10px;
 
   transition: .2s;
+
+  display: inline-block;
 }
 
 

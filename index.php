@@ -12,7 +12,7 @@
 
   <meta property="og:title" content="Fibers | Documents, apunts i exercicis FIB" />
   <meta property="og:description" content="Tot el que necessites per aprovar, documentació, apunts i exercicis pràctics de cada assignatura." />
-  <meta property="og:image" content="assets/img/logo.png" />
+  <meta property="og:image" content="https://fibers.cat/dev/assets/img/logo.png" />
   <meta property="og:type" content="website" />
 
   <link rel="shortcut icon" href="assets/img/logo.png"/>
@@ -24,10 +24,6 @@
   <!-- <link href="assets/css/materialize.css" type="text/css" rel="stylesheet"/> -->
   <link href="assets/css/f-a.min.css" type="text/css" rel="stylesheet"/>
   <link href="assets/css/styles.css" type="text/css" rel="stylesheet"/>
-
-  <script src="assets/js/jq.min.js" type="application/javascript"></script>
-  <script src="assets/js/m.min.js" type="application/javascript"></script>
-  <script src="assets/js/main.js" type="application/javascript"></script>
 
   <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -71,6 +67,10 @@
   </section>
 
   <?php include "views/condicions-us.php" ?>
+
+  <script src="assets/js/jq.min.js" type="application/javascript"></script>
+  <script src="assets/js/m.min.js" type="application/javascript"></script>
+  <script src="assets/js/main.js" type="application/javascript"></script>
 
 </body>
 </html>

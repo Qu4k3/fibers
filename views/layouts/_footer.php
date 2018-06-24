@@ -7,6 +7,6 @@
   </div>
 
   <div class="sub-footer">
-    2016 - 2017 © Fibers.cat <a class="qui-som" href="qui-som.php"><i class="fa fa-info" aria-hidden="true"></i></a>
+    2016 - <?php echo date("Y"); ?> © Fibers.cat <a class="qui-som" href="qui-som.php"><i class="fa fa-info" aria-hidden="true"></i></a>
   </div>
 </footer>
