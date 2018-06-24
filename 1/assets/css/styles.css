@@ -1,0 +1,358 @@
+@font-face {
+    font-family: haxs;
+    src: url(../fonts/haxs.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato/Lato-Regular.ttf);
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 14px;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h6 {
+  color: #ea4747;
+  font-weight: bold;
+}
+
+h4::before {
+  content: "</ ";
+  color: #ea4747;
+}
+
+h4::after {
+  content: " />";
+  color: #ea4747;
+}
+
+.switch {
+  text-align: center;
+}
+
+.btn-contribute {
+  font-weight: bold;
+  height: 46px;
+  font-size: 16px;
+  padding: 0 1.5rem;
+  background-color: #43A047;
+}
+
+.btn-contribute:hover, .btn-contribute:active, .btn-contribute:focus {
+  background-color: #4bb24f;
+}
+
+.btn-send {
+  padding: 0 1rem;
+  background-color: #43A047;
+}
+
+.btn-send:hover, .btn-send:active, .btn-send:focus {
+  background-color: #4bb24f;
+}
+
+.btn-assignatures {
+  padding: 0 1rem;
+  background-color: #2196f3;
+}
+
+.btn-assignatures:hover, .btn-assignatures:active, .btn-assignatures:focus {
+  background-color: #42a5f5;
+}
+
+.btn-usuaris {
+  padding: 0 1rem;
+  background-color: #3f51b5;
+}
+
+.btn-usuaris:hover, .btn-usuaris:active, .btn-usuaris:focus, .btn-usuaris:visited {
+  background-color: #5c6bc0;
+}
+
+.nav-box {
+  display: block;
+  box-sizing: border-box;
+  width: 325px;
+  height: 100%;
+  top: 0;
+  position: fixed;
+
+  background: #171a1c;
+}
+
+.nav-box > .header {
+  z-index: 100;
+  padding: 8px 16px;
+  height: 64px;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(255,255,255, 0.15);
+  background: #424242;
+  font-family: "haxs", sans-serif;
+  font-size: 36px;
+  color: #ea4747;
+  text-align: center;
+  text-shadow: -0.5px 0 1px rgba(0, 0, 0, 0.2), 0 0.5px 1px rgba(0, 0, 0, 0.2), 0.5px 0 1px rgba(0, 0, 0, 0.2), 0 -0.5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-box > .sub-header {
+  z-index: 100;
+  padding: 13px 16px;
+  height: 75px;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(255,255,255, 0.15);
+  text-align: center;
+  background: #757575;
+}
+
+.nav-box > .content {
+  width: 100%;
+  height: calc(100% - 232px);
+  box-sizing: border-box;
+  /*background: #757575;*/
+
+  overflow-y: scroll;
+}
+
+.assignatures {
+  color: #fff;
+  font-size: 16px;
+}
+
+.assignatures tr td {
+  padding: 15px 15px;
+  border-radius: 0;
+}
+
+.clickable-row {
+  transition: .2s;
+}
+
+.clickable-row:hover {
+  background: #424242;
+  cursor: pointer;
+}
+
+.fa-circle-o {
+    color: #ff6e40;
+}
+
+.fa-circle {
+    color: #00e676;
+}
+
+.fa-circle.feble {
+    color: #f9a825 ;
+}
+
+.modal-content::-webkit-scrollbar, .nav-box > .content::-webkit-scrollbar {
+    width: 6px;
+    background-color: #333;
+}
+
+.modal-content::-webkit-scrollbar-track, .nav-box > .content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
+    border-radius: 0px;
+    background-color: #555;
+}
+
+.modal-content::-webkit-scrollbar-track-piece, .nav-box > .content::-webkit-scrollbar-track-piece {
+    background-color: #555;
+}
+
+.modal-content::-webkit-scrollbar-corner, .nav-box > .content::-webkit-scrollbar-corner {
+    background-color: #111;
+}
+
+.modal-content::-webkit-scrollbar-thumb, .nav-box > .content::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.3);
+    background-color: #111;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-box .footer {
+  z-index: 100;
+  width: 100%;
+  padding: 18px 16px;
+  height: 64px;
+  box-sizing: border-box;
+  border-top: 2px solid rgba(255,255,255, 0.15);
+  background: #424242;
+  color: #ea4747;
+  text-align: center;
+}
+
+.nav-box .sub-footer {
+  z-index: 100;
+  width: 100%;
+  padding: 8px 16px;
+  height: 40px;
+  box-sizing: border-box;
+  border-top: 2px solid rgba(255,255,255, 0.15);
+  background: #151515;
+  color: #ea4747;
+  text-align: center;
+}
+
+#legal > section p, ul li {
+  text-align: left;
+}
+
+#legal ul {
+  padding-left: 40px;
+}
+
+#legal ul li {
+  list-style: square;
+  color: #ea4747;
+}
+
+#legal ul li span {
+  color: #fff;
+}
+
+.legal {
+  font-size: 18px;
+
+  color: #fff;
+  background-color: #333;
+
+  border: 2px solid;
+  border-radius: 100%;
+
+  border-color: #117d15;
+  padding: 10px 13px;
+
+  transition: .2s;
+}
+
+.legal:hover {
+  background-color: #117d15;
+}
+
+.social {
+  font-size: 18px;
+  margin-right: 10px;
+
+  color: #fff;
+  background-color: #333;
+
+  border: 2px solid;
+  border-radius: 100%;
+
+  transition: .2s;
+}
+
+.social.facebook {
+  border-color: #3b5998;
+  padding: 10px 16px;
+}
+
+.social.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social.mail {
+  border-color: #ea4335;
+  padding: 10px 12px;
+}
+
+.social.mail:hover {
+  background-color: #ea4335;
+}
+
+
+
+
+
+
+
+
+
+.page {
+  background-color: #363636;
+
+  width: calc(100% - 325px);
+
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.page > .header {
+  height: 64px;
+  padding: 13px 15px;
+  text-align: right;
+}
+
+.btn-assignatures {
+  padding: 0 1rem;
+}
+
+.btn-usuaris {
+  padding: 0 1rem;
+}
+
+th {
+  font-weight: normal;
+}
+
+.table-assignatures tr td {
+  transition: .3s;
+  border-radius: 0;
+}
+
+.table-assignatures tr:hover td {
+  background-color: #151515;
+}
+
+.table-assignatures tr:hover td.space {
+	background-color: transparent;
+}
+
+.modal-content {
+  color: #fff;
+  background: #333;
+  text-align: center;
+}
+
+.modal {
+  background-color: #333;
+}
+
+.modal .modal-footer {
+  background-color: #333;
+}
+
+.btn-back {
+  background-color: #ea4747;
+}
+
+.btn-back:hover {
+  background-color: #ed5e5e;
+}
+
+
+form i {
+  color: #9e9e9e;
+}
